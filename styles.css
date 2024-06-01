@@ -1,0 +1,126 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-box, .signup-box, .get-the-app {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: 'Billabong', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form .or {
+    margin: 20px 0;
+    color: #8e8e8e;
+    font-weight: bold;
+    position: relative;
+}
+
+form .or::before, form .or::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #dbdbdb;
+    position: absolute;
+    top: 50%;
+    width: 40%;
+}
+
+form .or::before {
+    left: 0;
+}
+
+form .or::after {
+    right: 0;
+}
+
+.fb-login {
+    background-color: #4267b2;
+    color: white;
+    margin-top: 10px;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 20px;
+    color: #00376b;
+}
+
+.signup-box {
+    padding: 20px;
+}
+
+.signup-box a {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+.get-the-app {
+    text-align: center;
+}
+
+.app-links a img {
+    height: 40px;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #00376b;
+    font-size: 12px;
+}
